@@ -1,0 +1,16 @@
+version: 1
+roles:
+  - id: frontend
+    description: 前端开发
+    resources:
+      knowledge: &a1
+        - common
+        - frontend
+      skills: *a1
+  - id: backend
+    description: 后端开发
+    resources:
+      knowledge: &a2
+        - common
+        - backend
+      skills: *a2
